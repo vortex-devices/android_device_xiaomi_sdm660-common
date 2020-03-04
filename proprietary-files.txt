@@ -170,17 +170,6 @@ vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c568033
 vendor/lib64/libdpmqmihal.so|d5b8330b56d7e0c036b00a817754748bf3137774
 
-# DRM (Widevine) - from jasmine-user-10-QKQ1.190910.002-V11.0.4.0.QDIMIXM
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|68767969f86126ada017fc09af151e299db651d5
-vendor/lib/liboemcrypto.so|ad286cf38f8b00a5c9b0b0f424e4a5bd1f47f046
-vendor/lib/mediadrm/libwvdrmengine.so|7b0dbc4a1c0e7ababe8835d804a900fba3a82380
-vendor/lib64/libcpion.so|ff24ef248bb35fd3cc1081a63f33c2565dc6351f
-vendor/lib64/libhdcpsrm.so|ee8e7c29e2b716a8bb07c3cbb730e34d8af3c64e
-vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
-vendor/lib64/libwvhidl.so|2489dbf5cc572dea567f9f3d3af7b2d269373b46
-vendor/lib64/mediadrm/libwvdrmengine.so|fe15c5e86482cad673789cd6992742d6124b0779
-
 # FM - from jasmine-user-10-QKQ1.190910.002-V11.0.4.0.QDIMIXM
 lib/fm_helium.so|feb4819f1898c67dfda4f965d7cc2711c74d1a99
 lib/libfm-hci.so|7700b02faa484ff682c618402f62b86bf8588db2
@@ -193,6 +182,23 @@ vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|506efd87250697bdae271f86ea472
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|073cace3aa8d0ffa025d9df67c45f8a907109339
 -product/lib/vendor.qti.hardware.fm@1.0.so|a090651122fcad265ae7562c88dca746f893ad36
 -product/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
+
+# DRM - from LA.UM.8.2.1.r1-03000-sdm660.0
+vendor/bin/qseecomd|46e7940548aa3fe4f579c59858f2da4dba97707c
+vendor/lib/libQSEEComAPI.so|a6d86434d8b953154fa9494f4204cc82efbef266
+vendor/lib/libsdedrm.so|0ac8ad285d137830d1971199ea86230855863321
+vendor/lib64/libdrmfs.so|e25d146688b139713f2ecfa1a70c4b368499ec49
+vendor/lib64/libdrmtime.so|de5966dd9cc844f28994b7673f61e0fcffe29c34
+vendor/lib64/libGPreqcancel.so|bfff7b7d51e917a16b9a15a27fb81e16d0359348
+vendor/lib64/libGPreqcancel_svc.so|6507278ce9cccec4a20f2f8412d836a4ea089c21
+vendor/lib64/libqisl.so|c4e7f283f3d416b784f2ec0f7000d607e044809b
+vendor/lib64/libQSEEComAPI.so|47bce9fbdfa7dcd056b1249e686f2a311491b808
+vendor/lib64/librpmb.so|4089ad0c91a59e2da8fd56796b1eff066321de6c
+vendor/lib64/libsdedrm.so|7f110a14cfe6440466f80020983cad335a844d12
+vendor/lib64/libsecureui_svcsock.so|9cb1b317f10d53819158ff8b05b25929a7759857
+vendor/lib64/libSecureUILib.so|0675928ba17a6206e3ac02e0c1b153bd7ea2806f
+vendor/lib64/libssd.so|bf3b64cc51cbbe2d70373d94025725c49ce1d46b
+vendor/lib64/libStDrvInt.so|8de13b46e8f21016c0fffaec34b0a2bacfccec04
 
 # GPS - from jasmine-user-10-QKQ1.190910.002-V11.0.4.0.QDIMIXM
 etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
