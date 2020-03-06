@@ -31,6 +31,9 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+#SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
